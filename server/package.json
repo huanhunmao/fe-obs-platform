@@ -1,0 +1,21 @@
+{
+  "name": "@fe/server",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "fastify": "^4.28.1",
+    "tsx": "^4.16.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}
