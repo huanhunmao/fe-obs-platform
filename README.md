@@ -36,3 +36,15 @@ server/             # Fastify + WS 的聚合服务
 - SDK：`navigator.sendBeacon` + 重试队列，压采样/灰度开关；离线缓存 + 批量上报。
 - 服务端：Kafka/Redis Stream → ClickHouse/TSDB；Prometheus 告警。
 - 看板：权限/多租户/告警收敛；与 A/B 实验、Feature Flag 打通。
+
+## 页面展示 
+
+<img width="1695" height="600" alt="image" src="https://github.com/user-attachments/assets/dc4acdda-a5f2-4781-82e7-7f2af80d2706" />
+
+发送数据 
+<img width="1245" height="131" alt="image" src="https://github.com/user-attachments/assets/2722dc37-97d4-4060-b6ea-95a1e52049bf" />
+
+数据接收
+<img width="1737" height="634" alt="image" src="https://github.com/user-attachments/assets/506d9b0d-48cc-4433-820b-daceff1ab09b" />
+
+
